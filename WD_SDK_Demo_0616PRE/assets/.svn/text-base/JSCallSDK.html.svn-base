@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网页通过js调用同意支付平台SDK</title>
+    <script src="JSCallSDK.js"></script>
+</head>
+<body>
+<h3 style="text-align: center">
+    JS调用原生SDK发起支付
+</h3>
+
+<style type="text/css">
+    .parentDiv{
+        width: 100%;text-align: center;
+    }
+    .titleStyle{
+        width: 20%;float: left;text-align: right;
+    }
+    .textStyle{
+        width:80%; float: right;height: 30px;
+    }
+    .contentStyle{
+        width:90%;height: 100%;
+    }
+
+</style>
+
+<form id="messageForm">
+
+    <div class="parentDiv">
+
+        <div class="titleStyle">appid:</div>
+        <div class="textStyle">
+            <input type="text" id="appid" value="wd2015tst001" class="contentStyle">
+        </div>
+        <br>
+        <br>
+        <div class="titleStyle">appkey:</div>
+        <div class="textStyle">
+            <input type="text" id="appkey" value="6XtC7H8NuykaRv423hrf1gGS09FEZQoB"  class="contentStyle">
+        </div>
+        <br>
+        <br>
+        <div class="titleStyle">submerno:</div>
+        <div class="textStyle">
+            <input type="text" id="subnum" value="wdtstsub00002" class="contentStyle">
+        </div>
+        <br>
+        <br>
+        <div class="titleStyle">金额(分):</div>
+        <div class="textStyle">
+            <input type="text" id="amount" value="1" class="contentStyle">
+        </div>
+        <br>
+        <br>
+        <div class="titleStyle">商品名称:</div>
+        <div class="textStyle">
+            <input type="text" id="subject" value="商品名称" class="contentStyle">
+        </div>
+        <br>
+        <br>
+
+        <div class="titleStyle">商品描述:</div>
+        <div class="textStyle">
+            <input type="text" id="body" value="商品描述" class="contentStyle">
+        </div>
+        <br>
+        <br>
+        <div class="titleStyle">订单描述:</div>
+        <div class="textStyle">
+            <input type="text" id="description" value="订单描述" class="contentStyle">
+        </div>
+        <br>
+        <br>
+        <div class="titleStyle">订单号:</div>
+        <div class="textStyle">
+            <input type="text" id="orderNo" value="订单号" class="contentStyle">
+        </div>
+        <br>
+        <br>
+        <br>
+        <div style="width: 100%;">
+            <button type="button" onclick = randomString(26)>点击生成订单号</button><br>
+        </div>
+        <br>
+        
+        <div class="titleStyle">选择支付方式:</div>
+        <div class="textStyle">
+            <select id="channel" class="contentStyle">
+                <option value="alipay">支付宝</option>
+                <option value="weixin">微信支付</option>
+                <option value="wdepay">链支付</option>
+                <option value="uppay">银联</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="titleStyle">请求环境:</div>
+        <div class="textStyle">
+            <select id="access" class="contentStyle">
+                <option value="alipay">生产环境 30080</option>
+                <option value="weixin">联调测试环境 20080</option>
+                <option value="wdepay">开发测试环境（自用）</option>
+            </select>
+        </div>
+        <br>
+        <br>
+    </div>
+</form>
+<br>
+<div style="width: 90%;text-align: center">
+    <button type="button" onclick= javaScriptCall_Android_1()>点击发起支付</button>
+</div>
+
+<hr/>
+<h3>
+    原生SDK返回数据
+</h3>
+<form name="returnMessageForm">
+
+    原生返回数据:<p id="resultCode">resultCode</p>
+
+</form>
+</body>
+</html>

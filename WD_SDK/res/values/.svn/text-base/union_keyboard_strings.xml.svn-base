@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- title -->
+    <string name="union_keyboard_no_contentDescription"></string>
+    <string name="union_keyboard_title_text_string">正在使用江南科友安全键盘</string>
+    <string name="union_keyboard_title_text_string_01">安全输入</string>
+    <string name="union_keyboard_title_text_dismiss_string">收起</string>
+
+    <!-- content -->
+    <!-- 字母字符 -->
+    <string name="union_keyboard_character_q">q</string>
+    <string name="union_keyboard_character_w">w</string>
+    <string name="union_keyboard_character_e">e</string>
+    <string name="union_keyboard_character_r">r</string>
+    <string name="union_keyboard_character_t">t</string>
+    <string name="union_keyboard_character_y">y</string>
+    <string name="union_keyboard_character_u">u</string>
+    <string name="union_keyboard_character_i">i</string>
+    <string name="union_keyboard_character_o">o</string>
+    <string name="union_keyboard_character_p">p</string>
+    <string name="union_keyboard_character_a">a</string>
+    <string name="union_keyboard_character_s">s</string>
+    <string name="union_keyboard_character_d">d</string>
+    <string name="union_keyboard_character_f">f</string>
+    <string name="union_keyboard_character_g">g</string>
+    <string name="union_keyboard_character_h">h</string>
+    <string name="union_keyboard_character_j">j</string>
+    <string name="union_keyboard_character_k">k</string>
+    <string name="union_keyboard_character_l">l</string>
+    <string name="union_keyboard_character_z">z</string>
+    <string name="union_keyboard_character_x">x</string>
+    <string name="union_keyboard_character_c">c</string>
+    <string name="union_keyboard_character_v">v</string>
+    <string name="union_keyboard_character_b">b</string>
+    <string name="union_keyboard_character_n">n</string>
+    <string name="union_keyboard_character_m">m</string>
+
+
+    <!-- 数字字符 -->
+    <string name="union_keyboard_character_1">1</string>
+    <string name="union_keyboard_character_2">2</string>
+    <string name="union_keyboard_character_3">3</string>
+    <string name="union_keyboard_character_4">4</string>
+    <string name="union_keyboard_character_5">5</string>
+    <string name="union_keyboard_character_6">6</string>
+    <string name="union_keyboard_character_7">7</string>
+    <string name="union_keyboard_character_8">8</string>
+    <string name="union_keyboard_character_9">9</string>
+    <string name="union_keyboard_character_0">0</string>
+
+    <!-- 空格字符 -->
+    <string name="union_keyboard_character_space">空格</string>
+
+    <!-- 功能键描述 -->
+    <string name="union_keyboard_character_123">123</string>
+    <string name="union_keyboard_character_nonalphabet">\&#063;123</string>
+    <string name="union_keyboard_character_shift">Aa</string>
+    <string name="union_keyboard_character_abc">ABC</string>
+    <string name="union_keyboard_character_symbol">\&#064;&#035;&#037;</string>
+    <string name="union_keyboard_character_symbol_01">&#035;&#043;&#061;</string>
+    <string name="union_keyboard_character_confirm">确认</string>
+
+    <!-- 符号字符 -->
+    <string name="union_keyboard_character_exclamation">&#033;</string>
+    <string name="union_keyboard_character_at">\&#064;</string>
+    <string name="union_keyboard_character_well">&#035;</string>
+    <string name="union_keyboard_character_dollar">&#036;</string>
+    <string name="union_keyboard_character_percent">&#037;</string>
+    <string name="union_keyboard_character_xor">&#094;</string>
+    <string name="union_keyboard_character_and">&#038;</string>
+    <string name="union_keyboard_character_asterisk">&#042;</string>
+    <string name="union_keyboard_character_leftsmallbracket">&#040;</string>
+    <string name="union_keyboard_character_rightsmallbracket">&#041;</string>
+
+    <string name="union_keyboard_character_underline">&#095;</string>
+    <string name="union_keyboard_character_doublequotation">\&#034;</string>
+    <string name="union_keyboard_character_singlequotes">\&#039;</string>
+    <string name="union_keyboard_character_comma">&#044;</string>
+    <string name="union_keyboard_character_semicolon">&#059;</string>
+    <string name="union_keyboard_character_end">&#046;</string>
+    <string name="union_keyboard_character_question">\&#063;</string>
+    <string name="union_keyboard_character_forwardslash">&#047;</string>
+    <string name="union_keyboard_character_backslash">\&#092;</string>
+
+    <string name="union_keyboard_character_plus">&#043;</string>
+    <string name="union_keyboard_character_equal">&#061;</string>
+    <string name="union_keyboard_character_transverseline">&#045;</string>
+    <string name="union_keyboard_character_non">&#126;</string>
+    <string name="union_keyboard_character_less">&#060;</string>
+    <string name="union_keyboard_character_more">&#062;</string>
+    <string name="union_keyboard_character_colon">&#124;</string>
+
+    <string name="union_keyboard_character_null"></string>
+    <string name="union_keyboard_character_atail">\&#064;</string>
+    <string name="union_keyboard_character_blackspots">`</string>
+    <string name="union_keyboard_character_leftbigbracket">&#123;</string>
+    <string name="union_keyboard_character_euro">&#8364;</string>
+    <string name="union_keyboard_character_or">&#124;</string>
+    <string name="union_keyboard_character_rightbigbracket">&#125;</string>
+    <string name="union_keyboard_character_leftmiddlebracket">&#091;</string>
+    <string name="union_keyboard_character_rmb">&#165;</string>
+    <string name="union_keyboard_character_pound">&#163;</string>
+    <string name="union_keyboard_character_rightmiddlebracket">&#093;</string>
+</resources>

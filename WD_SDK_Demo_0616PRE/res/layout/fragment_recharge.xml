@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.wonders.sdkdemo.MainActivity" >
+
+	<LinearLayout
+        style="@style/text_layout"
+        android:layout_margin="10dp"
+        android:visibility="visible">
+
+        <TextView
+            style="@style/text_hint"
+            android:text="充值金额:" />
+
+        <EditText
+            android:id="@+id/et_money"
+            style="@style/text_input"
+            android:hint="单位：分"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tv_deposits"
+        style="@style/show_info_btn"
+        android:layout_margin="17dp"
+        android:background="@drawable/btn_background"
+        android:text="充值" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:text="返回数据"
+        android:textSize="@dimen/sp_20" />
+
+    <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dp_30"
+        android:background="@drawable/et_bg"
+        android:gravity="left|top"
+        android:layout_margin="10dp"
+        android:textSize="@dimen/sp_20" />
+
+</LinearLayout>

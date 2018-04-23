@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignTop="@+id/et_secret_key"
+        android:text="SecureKey" />
+
+    <EditText
+        android:id="@+id/et_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:singleLine="true"
+        android:background="#ffffff"
+        android:ems="10"
+        android:layout_marginBottom="10dp"
+        android:text="wonders" />
+
+    <EditText
+        android:id="@+id/et_userID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_secret_key"
+        android:layout_alignRight="@+id/et_secret_key"
+        android:layout_below="@+id/et_secret_key"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:text="android1000"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/et_merapp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_userID"
+        android:layout_alignRight="@+id/et_userID"
+        android:layout_below="@+id/et_userID"
+        android:singleLine="true"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff"
+        android:text="万达"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_userID"
+        android:layout_alignBottom="@+id/et_userID"
+        android:layout_alignLeft="@+id/textView2"
+        android:text="UserID" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_merapp_name"
+        android:layout_alignBottom="@+id/et_merapp_name"
+        android:layout_alignRight="@+id/textView3"
+        android:text="商户名" />
+
+    <Button
+        android:id="@+id/btn_init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_merapp_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="初始化" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_init"
+        android:enabled="false"
+        android:text="一键登录" />
+
+    <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView5"
+        android:background="#ffffff"
+         />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btn_init"
+        android:layout_below="@+id/btn_init"
+        android:visibility="gone"
+        android:text="跳转" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login"
+        android:layout_below="@+id/btn_login"
+        android:text="返回数据" />
+
+    <EditText
+        android:id="@+id/et_secret_key"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_serial"
+        android:layout_alignRight="@+id/et_serial"
+        android:layout_below="@+id/et_serial"
+        android:ems="10"
+        android:background="#ffffff"
+        android:layout_marginBottom="10dp"
+        android:singleLine="true"
+        android:text="wonderssecret" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_init"
+        android:layout_alignTop="@+id/et_serial"
+        android:text="APPID" />
+
+</RelativeLayout>

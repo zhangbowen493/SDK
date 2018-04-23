@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white"
+    >
+    <TextView
+        android:id="@+id/topTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="统一收银台支付模块"
+        android:background="@color/bluebg"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"/>
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/topTitle"
+    >
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        
+   
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:text="请设置参数" />
+    
+    <RelativeLayout
+            android:id="@+id/sp_main_huanjing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:background="@color/greybg"
+            android:padding="3dp"
+            android:layout_centerHorizontal="true" >
+
+            <RadioGroup 
+                android:id="@+id/rg_main_huanjing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="选择环境"
+                android:orientation="horizontal"
+                >
+                
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="@android:color/black"
+                android:text="联调环境" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="正式环境" />
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="测试环境" />
+                
+            </RadioGroup>
+            
+            
+        </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/sp_main_huanjing"
+        android:layout_marginLeft="15dip"
+        android:text="APPID："
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/edt_set_key_appid"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dip"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="5dip"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_set_key_appid"
+        android:layout_marginLeft="15dip"
+        android:text="工作密钥："
+        android:textColor="@android:color/black" />
+
+     <EditText
+        android:id="@+id/edt_set_key_app_secret"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dip"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:minLines="2"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="5dip"
+        android:ems="10" >
+    </EditText>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_set_key_app_secret"
+        android:layout_marginLeft="15dip"
+        android:text="子商户号："
+        android:textColor="@android:color/black" />
+
+     <EditText
+        android:id="@+id/edt_set_key_app_submerno"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dip"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:maxLines="3"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="5dip"
+        android:ems="10" >
+    </EditText>
+    
+     <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/edt_set_key_app_submerno"
+        android:layout_marginLeft="15dip"
+        android:text="商户名称："
+        android:textColor="@android:color/black" />
+     
+     <EditText
+        android:id="@+id/edt_set_key_app_submer_name"
+        android:layout_width="match_parent"
+        android:layout_marginRight="15dip"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:maxLines="3"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="5dip"
+        android:ems="10" >
+    </EditText>
+
+     <Button
+         android:id="@+id/btn_set_key_set"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/edt_set_key_app_submer_name"
+         android:layout_centerHorizontal="true"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:layout_marginTop="19dp"
+         android:padding="10dp"
+         android:background="@color/bluebg"
+         android:textColor="@android:color/white"
+         android:text="设	置" />
+ </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

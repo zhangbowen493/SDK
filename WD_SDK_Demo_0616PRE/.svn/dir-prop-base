@@ -1,0 +1,14 @@
+K 13
+svn:mergeinfo
+V 63
+/移动端/安卓/sdk_demo/branches/developer-wxlogin:1059-1371
+K 10
+svn:ignore
+V 38
+.settings
+bin
+gen
+.classpath
+.project
+
+END

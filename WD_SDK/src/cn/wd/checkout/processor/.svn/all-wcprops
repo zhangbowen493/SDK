@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor
+END
+SignUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/SignUtils.java
+END
+WDSSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDSSLSocketFactory.java
+END
+WDException.java
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDException.java
+END
+WDLogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDLogUtil.java
+END
+WDHttpClientUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDHttpClientUtil.java
+END
+WDPayReqParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDPayReqParams.java
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 195
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/Base64.java
+END
+WDValidationUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDValidationUtil.java
+END
+WDSecurityUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3282/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDSecurityUtil.java
+END
+WDCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/src/cn/wd/checkout/processor/WDCache.java
+END

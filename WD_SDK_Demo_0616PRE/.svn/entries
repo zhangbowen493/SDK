@@ -1,0 +1,96 @@
+8
+
+dir
+3862
+https://172.16.31.122/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk_demo/branches/developer-zbw-pre
+https://172.16.31.122/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0
+
+
+
+2017-06-16T11:22:03.814077Z
+3826
+zhangbowen
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b082dfe9-140b-204d-b6a1-5e1de787f77e
+
+AndroidManifest.xml
+file
+
+
+
+
+2017-06-16T11:24:05.354000Z
+5c19a16f355b9898aa7bf0fa73e58df2
+2017-05-11T01:12:16.376958Z
+3379
+dingle
+
+assets
+dir
+
+gradle
+dir
+
+ic_launcher-web.png
+file
+
+
+
+
+2017-06-16T11:24:09.491000Z
+03162f4ee138bcbae36f78b1d25dbd5b
+2016-07-06T10:05:45.846739Z
+36
+dingle
+has-props
+
+libs
+dir
+
+proguard
+dir
+
+proguard-project.txt
+file
+
+
+
+
+2017-06-16T11:24:09.592000Z
+fcd5c9a7a2c84ed7f41fe64834023717
+2017-06-15T02:56:27.065144Z
+3798
+zhangbowen
+has-props
+
+project.properties
+file
+
+
+
+
+2017-06-16T11:24:02.070000Z
+3403ff1f204de54151c4ea7c7d9a1c20
+2017-05-26T07:03:59.032596Z
+3555
+zhangbowen
+
+res
+dir
+
+src
+dir
+

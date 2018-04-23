@@ -1,0 +1,54 @@
+8
+
+dir
+3862
+https://172.16.31.122/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk_demo/branches/developer-zbw-pre/libs/arm64-v8a
+https://172.16.31.122/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0
+
+
+
+2017-05-08T09:53:06.775987Z
+3352
+zhangbowen
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b082dfe9-140b-204d-b6a1-5e1de787f77e
+
+libcrypto.so
+file
+
+
+
+
+2017-06-16T11:24:05.941000Z
+0be625f0ff6a293afe1e417ec3adb2b9
+2017-05-08T09:53:06.775987Z
+3352
+zhangbowen
+has-props
+
+libunion-jni.so
+file
+
+
+
+
+2017-06-16T11:24:05.972000Z
+82b5f8a5a99e84c0e9b4dc9a8d921f3b
+2017-05-08T09:53:06.775987Z
+3352
+zhangbowen
+has-props
+

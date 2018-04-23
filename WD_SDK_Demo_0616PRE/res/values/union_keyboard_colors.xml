@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 根布局背景颜色 -->
+    <color name="union_keyboard_root_background_color">#f8f8f8</color>
+
+    <!-- title背景颜色 -->
+    <color name="union_keyboard_title_background_color">#f8f8f8</color>
+    <!-- title背景颜色01 -->
+    <color name="union_keyboard_title_background_color_01">#b2b2b2</color>
+    <!-- content背景颜色 -->
+    <color name="union_keyboard_content_background_color">#cccccc</color>
+    <!-- number_content背景颜色 -->
+    <color name="union_keyboard_number_content_background_color">#efefef</color>
+
+    <!-- title_text字体颜色 -->
+    <color name="union_keyboard_title_text_color">#a3a3a3</color>
+    <!-- title_text字体颜色01 -->
+    <color name="union_keyboard_title_text_color_01">#ffffff</color>
+    <!-- title_text_dismiss字体颜色 -->
+    <color name="union_keyboard_title_text_dismiss_color">#3366cc</color>
+
+
+    <!-- 普通按钮背景颜色 -->
+    <color name="union_keyboard_common_btn_background_color">#ffffff</color>
+    <!-- 普通按钮阴影颜色 -->
+    <color name="union_keyboard_common_btn_shadow_color">#a2a2a2</color>
+    <!-- 普通按钮字体颜色 -->
+    <color name="union_keyboard_common_btn_font_color">#696969</color>
+
+    <!-- 功能按钮背景颜色 -->
+    <color name="union_keyboard_function_btn_background_color">#b2b2b2</color>
+    <!-- 功能按钮阴影颜色 -->
+    <color name="union_keyboard_function_btn_shadow_color">#a2a2a2</color>
+    <!-- 功能按钮字体颜色 -->
+    <color name="union_keyboard_function_btn_font_color">#000000</color>
+    <!-- shift功能按钮背景颜色 -->
+    <color name="union_keyboard_function_btn_shift_background_color">#dddddd</color>
+    <!-- 功能按钮背景颜色 -->
+    <color name="union_keyboard_function_btn_highlight_background_color">#806abd</color>
+    <!-- 功能按钮阴影颜色 -->
+    <color name="union_keyboard_function_btn_highlight_shadow_color">#806abd</color>
+    
+</resources>

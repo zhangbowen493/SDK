@@ -1,0 +1,55 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-libraryjars libs/SHRBEWALLETSDK.jar
+-libraryjars libs/fastjson-1.2.5.jar
+-libraryjars libs/okhttp-3.4.2.jar
+-libraryjars libs/glide-3.7.0.jar
+
+
+
+-keep class com.shrb.wallet.**
+-keep class com.shrb.walletsdk.**
+-keep class cn.keyou.**{ *;}
+-keep class com.alibaba.fastjson.**{ *;}
+-keep class okhttp3.**{ *;}
+-keep class com.bumptech.glide.**{ *;}
+-keep class com.union.keyboard.**{ *;}
+-keep class com.bqs.risk.df.android.**{ *;}
+-keep class com.bqs.risk.df.android.contact.**{ *;}
+
+-dontwarn com.shrb.wallet.**
+-dontwarn com.shrb.walletsdk.**
+-dontwarn com.alibaba.fastjson.**
+-dontwarn com.bqs.risk.df.android.**
+-dontwarn com.bqs.risk.df.android.contact.**
+-dontwarn com.union.keyboard.**
+-dontwarn okhttp3.**
+-dontwarn com.bumptech.glide.**
+-dontwarn cn.keyou.**
+
+-keepclassmembers class * {
+public <methods>;
+}
+-keepattributes InnerClasses,Signature
+
+
+

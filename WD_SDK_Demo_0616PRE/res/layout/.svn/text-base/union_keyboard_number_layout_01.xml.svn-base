@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/union_keyboard_root"
+    style="@style/union_keyboard_root_style"
+    android:focusable="false"
+    android:focusableInTouchMode="false" >
+
+    <!-- title -->
+    <LinearLayout android:id="@+id/union_keyboard_title"
+        style="@style/union_keyboard_title_style_01" >
+
+        <ImageView
+            android:id="@+id/union_keyboard_title_logo"
+            style="@style/union_keyboard_title_logo_style"
+            android:contentDescription="@string/union_keyboard_no_contentDescription" />
+
+        <TextView
+            android:id="@+id/union_keyboard_title_text"
+            style="@style/union_keyboard_title_text_style_01" />
+
+    </LinearLayout>
+
+    <!-- content -->
+    <LinearLayout android:id="@+id/union_keyboard_content"
+        style="@style/union_keyboard_content_style" >
+
+        <LinearLayout style="@style/union_keyboard_content_row_style" >
+
+            <Button
+                android:id="@+id/union_keyboard_btn_1"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_1" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_2"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_2" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_3"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_3" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_4"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_4" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_5"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_5" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_6"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_6" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_7"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_7" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_8"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_8" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_9"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_9" />
+
+            <Button
+                android:id="@+id/union_keyboard_btn_0"
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_0" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/union_keyboard_content_row_style" >
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_semicolon" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_transverseline" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_doublequotation" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_atail" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_forwardslash" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_leftsmallbracket" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_rightsmallbracket" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_and" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_colon" />
+
+            <Button
+                style="@style/union_keyboard_common_btn_style"
+                android:text="@string/union_keyboard_character_dollar" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/union_keyboard_content_row_style" >
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="3">
+
+                <Button
+                    android:id="@+id/union_keyboard_btn_symbol"
+                    style="@style/union_keyboard_function_btn_style"
+                    android:text="@string/union_keyboard_character_symbol_01" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="14">
+
+                <Button
+                    style="@style/union_keyboard_common_btn_style"
+                    android:text="@string/union_keyboard_character_end" />
+
+                <Button
+                    style="@style/union_keyboard_common_btn_style"
+                    android:text="@string/union_keyboard_character_singlequotes" />
+
+                <Button
+                    style="@style/union_keyboard_common_btn_style"
+                    android:text="@string/union_keyboard_character_exclamation" />
+
+                <Button
+                    style="@style/union_keyboard_common_btn_style"
+                    android:text="@string/union_keyboard_character_comma" />
+
+                <Button
+                    style="@style/union_keyboard_common_btn_style"
+                    android:text="@string/union_keyboard_character_question" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="3">
+
+                <ImageButton
+                    android:id="@+id/union_keyboard_btn_backspace"
+                    style="@style/union_keyboard_backspace_btn_style" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/union_keyboard_content_row_style" >
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="5">
+
+                <Button
+                    android:id="@+id/union_keyboard_btn_alphabet"
+                    style="@style/union_keyboard_function_btn_style"
+                    android:text="@string/union_keyboard_character_abc" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="10">
+
+                <ImageButton
+                    android:id="@+id/union_keyboard_btn_space"
+                    style="@style/union_keyboard_space_btn_style" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:layout_weight="5">
+
+                <ImageButton
+                    android:id="@+id/union_keyboard_btn_confirm"
+                    style="@style/union_keyboard_confirm_btn_style" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

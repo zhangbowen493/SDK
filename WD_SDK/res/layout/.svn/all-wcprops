@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout
+END
+item_shrb_question_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 193
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_question_list.xml
+END
+item_sp_bank.xml
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_sp_bank.xml
+END
+item_shrb_login_password.xml
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_login_password.xml
+END
+item_shrb_sms_verification_code.xml
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_sms_verification_code.xml
+END
+item_shrb_face_verification.xml
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_face_verification.xml
+END
+item_shrb_challenge_question.xml
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_challenge_question.xml
+END
+union_keyboard_alphabet_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/union_keyboard_alphabet_layout.xml
+END
+union_keyboard_symbol_layout_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/union_keyboard_symbol_layout_01.xml
+END
+union_keyboard_number_layout_02.xml
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/union_keyboard_number_layout_02.xml
+END
+item_shrb_platform_password.xml
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_platform_password.xml
+END
+item_shrb_card_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_card_list.xml
+END
+item_shrb_password.xml
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_password.xml
+END
+item_shrb_voice_verification_code.xml
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_voice_verification_code.xml
+END
+item_shrb_face_verification_success.xml
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_face_verification_success.xml
+END
+item_shrb_challenge_choose.xml
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_shrb_challenge_choose.xml
+END
+item_function.xml
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/item_function.xml
+END
+popupwindow_bank_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/popupwindow_bank_list.xml
+END
+union_keyboard_symbol_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/union_keyboard_symbol_layout.xml
+END
+union_keyboard_number_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/union_keyboard_number_layout.xml
+END
+layout_shrb_sdk_wallet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/layout_shrb_sdk_wallet.xml
+END
+union_keyboard_number_layout_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/union_keyboard_number_layout_01.xml
+END
+union_keyboard_alphabet_layout_01.xml
+K 25
+svn:wc:ra_dav:version-url
+V 203
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3298/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/union_keyboard_alphabet_layout_01.xml
+END
+layout_shrb_security.xml
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/%E7%BB%9F%E4%B8%80%E6%94%AF%E4%BB%98%E5%B9%B3%E5%8F%B0/!svn/ver/3401/%E7%A7%BB%E5%8A%A8%E7%AB%AF/%E5%AE%89%E5%8D%93/sdk/branches/developers-dl-wallet/res/layout/layout_shrb_security.xml
+END

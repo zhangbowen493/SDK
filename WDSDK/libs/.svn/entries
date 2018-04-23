@@ -1,0 +1,118 @@
+8
+
+dir
+577
+https://svnserver-pc/svn/%E4%B8%AA%E4%BA%BA%E9%92%B1%E5%8C%85/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E4%BB%A3%E7%A0%81/android/SDK/WDPwSDK/libs
+https://svnserver-pc/svn/%E4%B8%AA%E4%BA%BA%E9%92%B1%E5%8C%85
+
+
+
+2017-05-12T05:53:05.520472Z
+461
+dingle
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+0988c0b5-a2a7-3346-9ddd-f293abc8aa1a
+
+SHRBEWALLETSDK.jar
+file
+578
+
+
+
+2017-06-12T06:10:04.184000Z
+e42f59a252a617d8c739cbb3055f5309
+2017-06-15T02:53:55.464077Z
+578
+zhangbowen
+has-props
+
+android-support-v4.jar
+file
+
+
+
+
+2017-03-21T07:08:59.045000Z
+7c2158f2aba8503df83f92c934508e2f
+2017-03-21T07:08:21.396822Z
+126
+dingle
+has-props
+
+armeabi
+dir
+
+armeabi-v7a
+dir
+
+fastjson-1.2.5.jar
+file
+
+
+
+
+2017-03-23T02:18:31.001000Z
+65420f380e5e4158026c9bc35ee6c8ae
+2017-03-23T02:14:50.213114Z
+169
+dingle
+has-props
+
+glide-3.7.0.jar
+file
+
+
+
+
+2017-03-21T07:08:58.348000Z
+dfeb49b142d19242204c7e6a2f43a5e7
+2017-03-21T07:08:21.396822Z
+126
+dingle
+has-props
+
+mips
+dir
+
+okhttp-3.4.2.jar
+file
+
+
+
+
+2017-03-21T07:08:58.657000Z
+cb9eaa81c95d740ab2f8bd082e56c4c5
+2017-03-21T07:08:21.396822Z
+126
+dingle
+has-props
+
+okio-1.9.0.jar
+file
+
+
+
+
+2017-03-21T07:08:58.072000Z
+5ea97863695edf79d480cf9b40622995
+2017-03-21T07:08:21.396822Z
+126
+dingle
+has-props
+
+x86
+dir
+
